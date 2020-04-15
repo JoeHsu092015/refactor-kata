@@ -1,0 +1,6 @@
+{
+    "name": "root/app",
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
