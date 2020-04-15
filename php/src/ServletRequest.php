@@ -1,5 +1,5 @@
 <?php
-
+namespace DDD\Kata;
 interface ServletRequest
 {
     public const BASIC_AUTH = "BASIC";

@@ -1,5 +1,5 @@
 <?php
-
+namespace DDD\Kata;
 class POSDisplayer {
 
     /**

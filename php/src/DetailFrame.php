@@ -1,5 +1,7 @@
 <?php
 
+namespace DDD\Kata;
+
 class DetailFrame
 {
 
@@ -19,6 +21,12 @@ class DetailFrame
      * @var int
      */
     public $frameWidth;
+
+    function __construct()
+    {
+        $this->frameWidth = 0;
+        $this->frameLength = 0;
+    }
 
     public function show(): void
     {
