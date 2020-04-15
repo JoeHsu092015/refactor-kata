@@ -18,7 +18,7 @@ public class POSDisplayer {
 
     }
 
-    public void populate(ServletRequest request) {
+    public void process(ServletRequest request) {
         String [] values
                 = request.getParameterValues(pageStateName);
         if (values != null && values.length > 0) {
@@ -40,7 +40,7 @@ public class POSDisplayer {
         displayDirection[3] = bY;
     }
 
-    public int[] showMenu() {
+    public int[] getMenuRegion() {
         return displayDirection;
     }
 
